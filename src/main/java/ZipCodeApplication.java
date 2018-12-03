@@ -1,12 +1,9 @@
-/**
- *
- *
- *
- */
 
-public class ZipcodeMainApplication {
-
-    public static void main(String[] args) {
+public class ZipCodeApplication {
+    /**
+     * @param args ZIP Code Ranges
+     */
+    public static void main(String args[]) {
 
         ZipCodeValidator zips = new ZipCodeValidator(args);
         zips.checkzipcode();
