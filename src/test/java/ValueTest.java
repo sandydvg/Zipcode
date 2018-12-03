@@ -13,7 +13,7 @@ public class ValueTest {
     }
 
     @Test
-    void test2() {
+    public void test2() {
         String[] s = {"[94133,94133]", "[94200,94299]", "[94226,94399]"};
         ValidateValue input = new ValidateValue(s);
         input.checkValues();
@@ -22,7 +22,7 @@ public class ValueTest {
     }
 
     @Test
-    void test3() {
+    public void test3() {
         String[] s = {"[11111,25000]", "[24999,49000]", "[49002,94399]"};
         ValidateValue input = new ValidateValue(s);
         input.checkValues();
